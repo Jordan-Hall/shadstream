@@ -132,10 +132,10 @@ class JetstreamServiceProvider extends ServiceProvider
         ], 'jetstream-routes');
 
         $this->publishes([
-            __DIR__.'/../stubs/inertia/resources/js/Pages/Auth' => resource_path('js/Pages/Auth'),
-            __DIR__.'/../stubs/inertia/resources/js/Components/AuthenticationCard.vue' => resource_path('js/Components/AuthenticationCard.vue'),
-            __DIR__.'/../stubs/inertia/resources/js/Components/AuthenticationCardLogo.vue' => resource_path('js/Components/AuthenticationCardLogo.vue'),
-            __DIR__.'/../stubs/inertia/resources/js/Components/Checkbox.vue' => resource_path('js/Components/Checkbox.vue'),
+            __DIR__.'/../stubs/inertia-vue/resources/js/Pages/Auth' => resource_path('js/Pages/Auth'),
+            __DIR__.'/../stubs/inertia-vue/resources/js/Components/AuthenticationCard.vue' => resource_path('js/Components/AuthenticationCard.vue'),
+            __DIR__.'/../stubs/inertia-vue/resources/js/Components/AuthenticationCardLogo.vue' => resource_path('js/Components/AuthenticationCardLogo.vue'),
+            __DIR__.'/../stubs/inertia-vue/resources/js/Components/Checkbox.vue' => resource_path('js/Components/Checkbox.vue'),
         ], 'jetstream-inertia-auth-pages');
     }
 
